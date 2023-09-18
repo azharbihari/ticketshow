@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container text-center bg-light p-5">
+        <h1 class="display-6 fw-bold">Welcome back, {{ user.first_name }}!</h1>
+        <p class="text-info fw-bold">It's been too long! {% if last_visited_at %} {{ last_visited_at | naturaltime }}. {% endif %}</p>
+        <p class="text-primary fw-bold">It's showtime, and we've missed you!</p>
+        <p class="text-primary">
+            Our silver screens are waiting to entertain you with the latest blockbusters and unforgettable performances.
+        </p>
+        <p>Don't let this opportunity slip away! <br> Book your tickets now and immerse yourself in the magic of cinema.</p>
+        <a href="http://localhost:5173" class="btn btn-primary btn-lg">Book Now</a>
+        <p class="mt-2">Grab your popcorn, sit back, and enjoy the show!</p>
+        <p class="fw-bolder fs-6">TicketShow Team</p>
+    </div>
+</body>
+
+</html>
