@@ -82,7 +82,7 @@ The backend server will be running on http://localhost:5000, and the frontend de
 
 For any issues or inquiries, please contact the project author at:
 
-- Author: Azarudin Abidbhai Bihari
-- Email: 21f3000828@ds.study.iitm.ac.in
+- Author: Azhar Bihari
+- Email: azhrbhr@gmail.com
 
 Thank you for using the TicketShow App! Enjoy hassle-free movie ticket booking.
